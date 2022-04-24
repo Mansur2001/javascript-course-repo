@@ -7,11 +7,15 @@
     <title> Top DC Characters</title>
 </head>
     <label for "Dc characters" >  Who is your favorite DC character:  </label>
-    <form><label for "Batman" input type="radio" name="tz" value="bm">  Im Batmann: </label></form> 
-    <form><label for "Flash" input type="radio" name="tz" value="fh">  Catch me if you can:  </label></form>
-    <form><label for "Martian ManHunter" input type="radio" name="tz" value="mm"> J'onn J'onz: </label></form>
-    <form><label for "Jason Todd" input type="radio" name="tz" value="jt">  You're not my dad: </label></form> 
-    <form><button><label for "button" input type="button" name="tz" value="bt" > Submit</label> </button></form>
-   <form><br><div><label > <for "ID" input type= "ID" id="MyID"> </label> </div></form>
+    <script>type = "text/javascript"; src="index.js" </script>
+    <form action="">
+        <input type="radio" name="Batman" value="male"> I'm Batman<br>
+        <input type="radio" name="Flash" value="male"> Catch me if you can <br>
+        <input type="radio" name="Martian ManHunter" value="other"> John Jones <br>
+        <input type="radio" name="Jason Todd" value="male"> you're not my dad <br>
+        
+        <button type="button" value="Submit" onclick="ValidateForm()"> Submit </button><br>
+        <div id="result" document.getElementById("result").innerHTML = output;></div>
+        </form>
 </body>
 </html>
